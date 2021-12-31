@@ -1,0 +1,20 @@
+início { 
+    
+    lógico: tem_passaporte;
+    lógico: tem_residencia_fixa;
+    lógico: tem_antecedentes;
+    lógico: tem_oferta_trabalho;
+    
+    tem_passaporte = verdadeiro;
+    tem_residencia_fixa = verdadeiro;
+    tem_antecedentes = falso;
+    tem_oferta_trabalho = verdadeiro;
+    
+    se( (tem_passaporte E tem_residencia_fixa E NÃO tem_antecedentes) 
+        ou (tem_passaporte E tem_oferta_trabalho) ){
+        escreva("Visto aprovado!");
+    }senão{
+        escreva("Visto reprovado!");
+    }
+    
+}   

@@ -1,0 +1,113 @@
+
+Objetivos do Curso:
+- Aprender a Linguagem SQL.
+- Aprender a modelar, normalizar, criar e interagir com bancos de dados.
+Público alvo:
+- Programadores e desenvolvedores de software.
+- Administradores de bancos de dados.
+- Professores e estudantes de bancos de dados.
+Requisitos:
+- Conhecimento básico de programação.
+
+Aptidões após o curso:
+- Modelar, normalizar e criar bancos de dados para suas aplicações.
+- Interagir com bancos de dados.
+
+Faz Parte Deste Curso
+- Ensinar a criar e modelar bancos de dados.
+- Ensinar a normalizar um banco de dados.
+- Ensinar a interagir com banco de dados.
+- Linguagem SQL ANSI.
+- Avaliações vs Aulas Práticas.
+
+Não Faz Parte Deste Curso
+- Ensinar integração do Sql com Linguagem de Programação.
+- Ensinar outros bancos sql, além do Mysql.
+
+*O que são bancos de dados*
+- Mecanismos de armazenamento de dados.
+- Conjunto de informação com estrutura regular.
+
+Obs: O banco de dados pode ser Manual(Papel) ou Digital(Computador).
+
+- Bancos de Dados Não Relacionais.
+	1. Arquivos Estruturados.
+- Bancos de Dados Relacionais.
+	1. Dados Organizados em tabelas.
+	2. Tabelas podem ser relacionar com outras tabelas.
+	3. Menor espaço de armazenamento.
+	4. Maior velocidade de acesso aos dados.
+	5. Padrão mundialmente utilizada.
+*Bancos de Dados*
+Obs: Maioria dos Bancos de Dados são do tipo relacionais decorrente das vantagens que
+eles possibilitam.
+"Ferramentas que permitem o armazenamento e manipulação de dados organizados em forma
+de tabelas."
+
+*Tabelas*
+"Forma de organização de dados formada por linhas e colunas"
+
+*Colunas*
+"Campos que formam um registro"
+
+*Linhas*
+"Registro ou tuplas"
+
+*Visões*
+"Consultas SQL a dados das tabelas do banco sem armazená-los."
+
+*Índices*
+"Estruturas que gerenciam a ordenação de valores dos campos informados para melhorar
+a performace de processamento destes campos."
+
+*SGBD*
+- Sistema Gerenciador de Banco de Dados
+- DBMS: Database Management System
+- SGBD não é um banco de dados, mas sim um complemento.
+- SGBD é um grupo de programas para interação com os dados.
+Obs: Banco de dados é para armazenar, SGBD serve para gerenciar os dados.
+
+Sistema de Banco de Dados{
+Banco de Dados 
++
+SGBD
+}
+
+*SQL(Structured Query Language)*
+- Linguagem Estruturada de Consulta
+- Formada pelo conjunto das linguagens:
+	1. DDL(Data Definition Language): Linguagem de Definição de Dados
+	2. DML(Data Manipulation Language): Linguagem de Manipulação de Dados
+	3. DQL(Data Query Language): Linguagem de Consulta de Dados
+	4. DCL(Data Control Language): Linguagem de Controle de Dados
+	5. DTL(Data Transaction Language): Linguagem de Transação de Dados
+- Linguagem de Definição de Dados(Table):
+	1. CREATE: Cria uma estrutura.
+	2. ALTER: Altera uma estrutura.
+	3. DROP: Exclui uma estrutura.
+- Linguagem de Manipulação de Dados(Tupla):
+	1. INSERT: Insere dados
+	2. UPDATE: Altera dados
+	3. DELETE: Exclui dados
+- Linguagem de Consulta de Dados(Tupla):
+	1. SELECT: Retorna dados
+	2. Ordenação de dados
+	3. Agrupamento de dados
+	4. Funções Aritméticas
+	5. Filtros de seleção
+- Linguagem de Controle de Dados:
+	1. GRANT: Habilita acesso a dados e operações.
+	2. REVOKE: Revoga acesso a dados e operações.
+- Linguagem de Transação de Dados:
+	1. START TRANSACTION: Inicia a transação.
+	2. COMMIT: Concretiza a transação.
+	3. ROLLBACK:Anula a transação.
+
+*Principais bancos de dados*
+
+- Mysql: SGBD, ACID, Licença Estudante
+- PostgresSql: SGBD, ACID, Licença Comercial, Licença Estudante 
+- Firebird: SGBD, ACID, Licença Comercial, Licença Estudante
+- Oracle: SGBD, ACID, Licença Estudante
+- Sql Serve: SGBD, ACID, Licença Estudante
+

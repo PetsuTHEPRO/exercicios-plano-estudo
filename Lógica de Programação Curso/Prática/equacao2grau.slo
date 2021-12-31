@@ -1,0 +1,20 @@
+início { 
+    real: a;
+    real: b;
+    real: c;
+    real: delta;
+    real: x1;
+    real: x2;
+    
+    leia("A", a);
+    leia("B", b);
+    leia("C", c);
+    
+    delta = b * b - 4 * a * c;
+    
+    x1 = (-b + rad(delta)) / (a*2);
+    x2 = (-b - rad(delta)) / (a*2);
+
+    escreva("x1 é igual: " + x1 + " e x2 é igual: " + x2);
+    
+}

@@ -1,0 +1,16 @@
+início {
+    caractere: texto;
+    inteiro: idade;
+    real: altura;
+    
+    texto = "Pedro";
+    idade = 17;
+    idade = 1;
+    
+    escreva(texto + ", " + idade);
+    
+    // Digite a idade
+    leia("Digite a idade:", idade);
+    
+    escreva(idade);
+}

@@ -1,0 +1,31 @@
+início { 
+    
+    inteiro: n;
+    inteiro: i;
+    inteiro: p;
+    inteiro: j;
+    inteiro: t;
+    
+    i = 1;
+    j = 0;
+    
+    para n de 3 até 10 passo 1{
+        p = i + j;
+        escreva(p);
+        t = i;
+        i = p;
+        j = t;
+    }
+    
+    // Segundo Modo
+    
+    i = 0;
+    j = 1;
+    
+    para n de 1 até 10 passo 1{
+        escreva(i);
+        i = i + 1;
+        j = i - j;
+    }
+    
+}   

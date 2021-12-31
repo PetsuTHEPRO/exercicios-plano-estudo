@@ -1,0 +1,10 @@
+início {
+    real: TC;
+    real: TF;
+
+    leia(TF);
+    
+    TC = (TF-32) /9 *5;
+    
+    escreva(TC);
+}

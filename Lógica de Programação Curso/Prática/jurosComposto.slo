@@ -1,0 +1,14 @@
+início {
+    real: FV;
+    real: PV;
+    real: i;
+    real: n;
+    
+    leia("digite o valor atual", PV);
+    leia("Taxa", i);
+    leia("Tempo", n);
+    
+    FV = PV * pot(1 + i /100, n);
+    
+    escreva("FV = " + FV);
+}
